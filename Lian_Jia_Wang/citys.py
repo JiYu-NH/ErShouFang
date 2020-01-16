@@ -1,0 +1,263 @@
+"""全国的城市
+<a href="https://aq.lianjia.com/">安庆</a>
+<a href="https://cz.fang.lianjia.com/">滁州</a>
+<a href="https://hf.lianjia.com/">合肥</a>
+<a href="https://mas.lianjia.com/">马鞍山</a>
+<a href="https://wuhu.lianjia.com/">芜湖</a>
+<a href="https://bj.lianjia.com/">北京</a>
+<a href="https://cq.lianjia.com/">重庆</a>
+<a href="https://fz.lianjia.com/">福州</a>
+<a href="https://quanzhou.lianjia.com/">泉州</a>
+<a href="https://xm.lianjia.com/">厦门</a>
+<a href="https://zhangzhou.lianjia.com/">漳州</a>
+<a href="https://dg.lianjia.com/">东莞</a>
+<a href="https://fs.lianjia.com/">佛山</a>
+<a href="https://gz.lianjia.com/">广州</a>
+<a href="https://hui.lianjia.com/">惠州</a>
+<a href="https://jiangmen.lianjia.com/">江门</a>
+<a href="https://qy.lianjia.com/">清远</a>
+<a href="https://sz.lianjia.com/">深圳</a>
+<a href="https://zh.lianjia.com/">珠海</a>
+<a href="https://zhanjiang.lianjia.com/">湛江</a>
+<a href="https://zs.lianjia.com/">中山</a>
+<a href="https://gy.lianjia.com/">贵阳</a>
+<a href="https://bh.lianjia.com/">北海</a>
+<a href="https://fcg.lianjia.com/">防城港</a>
+<a href="https://gl.lianjia.com/">桂林</a>
+<a href="https://liuzhou.lianjia.com/">柳州</a>
+<a href="https://nn.lianjia.com/">南宁</a>
+<a href="https://lz.lianjia.com/">兰州</a>
+<a href="https://ez.lianjia.com/">鄂州</a>
+<a href="https://huangshi.lianjia.com/">黄石</a>
+<a href="https://wh.lianjia.com/">武汉</a>
+<a href="https://xy.lianjia.com/">襄阳</a>
+<a href="https://yichang.lianjia.com/">宜昌</a>
+<a href="https://cs.lianjia.com/">长沙</a>
+<a href="https://changde.lianjia.com/">常德</a>
+<a href="https://yy.lianjia.com/">岳阳</a>
+<a href="https://zhuzhou.lianjia.com/">株洲</a>
+<a href="https://bd.lianjia.com/">保定</a>
+<a href="https://lf.lianjia.com/">廊坊</a>
+<a href="https://qhd.fang.lianjia.com/">秦皇岛</a>
+<a href="https://sjz.lianjia.com/">石家庄</a>
+<a href="https://ts.lianjia.com/">唐山</a>
+<a href="https://zjk.lianjia.com/">张家口</a>
+<a href="https://bt.fang.lianjia.com/">保亭</a>
+<a href="https://cm.fang.lianjia.com/">澄迈</a>
+<a href="https://dz.fang.lianjia.com/">儋州</a>
+<a href="https://hk.lianjia.com/">海口</a>
+<a href="https://lg.fang.lianjia.com/">临高</a>
+<a href="https://ld.fang.lianjia.com/">乐东</a>
+<a href="https://ls.fang.lianjia.com/">陵水</a>
+<a href="https://qh.fang.lianjia.com/">琼海</a>
+<a href="https://san.lianjia.com/">三亚</a>
+<a href="https://wzs.fang.lianjia.com/">五指山</a>
+<a href="https://wc.fang.lianjia.com/">文昌</a>
+<a href="https://wn.fang.lianjia.com/">万宁</a>
+<a href="https://kf.lianjia.com/">开封</a>
+<a href="https://luoyang.lianjia.com/">洛阳</a>
+<a href="https://xinxiang.lianjia.com/">新乡</a>
+<a href="https://xc.lianjia.com/">许昌</a>
+<a href="https://zz.lianjia.com/">郑州</a>
+<a href="https://zk.lianjia.com/">周口</a>
+<a href="https://hrb.lianjia.com/">哈尔滨</a>
+<a href="https://changzhou.lianjia.com/">常州</a>
+<a href="https://haimen.lianjia.com/">海门</a>
+<a href="https://ha.lianjia.com/">淮安</a>
+<a href="https://jy.lianjia.com/">江阴</a>
+<a href="https://ks.lianjia.com/">昆山</a>
+<a href="https://nj.lianjia.com/">南京</a>
+<a href="https://nt.lianjia.com/">南通</a>
+<a href="https://su.lianjia.com/">苏州</a>
+<a href="https://wx.lianjia.com/">无锡</a>
+<a href="https://xz.lianjia.com/">徐州</a>
+<a href="https://yc.lianjia.com/">盐城</a>
+<a href="https://zj.lianjia.com/">镇江</a>
+<a href="https://cc.lianjia.com/">长春</a>
+<a href="https://jl.lianjia.com/">吉林</a>
+<a href="https://ganzhou.lianjia.com/">赣州</a>
+<a href="https://jiujiang.lianjia.com/">九江</a>
+<a href="https://jian.lianjia.com/">吉安</a>
+<a href="https://nc.lianjia.com/">南昌</a>
+<a href="https://sr.lianjia.com/">上饶</a>
+<a href="https://dl.lianjia.com/">大连</a>
+<a href="https://dd.lianjia.com/">丹东</a>
+<a href="https://sy.lianjia.com/">沈阳</a>
+<a href="https://baotou.lianjia.com/">包头</a>
+<a href="https://hhht.lianjia.com/">呼和浩特</a>
+<a href="https://yinchuan.lianjia.com/">银川</a>
+<a href="https://sh.lianjia.com/">上海</a>
+<a href="https://cd.lianjia.com/">成都</a>
+<a href="https://dy.lianjia.com/">德阳</a>
+<a href="https://dazhou.lianjia.com/">达州</a>
+<a href="https://leshan.fang.lianjia.com/">乐山</a>
+<a href="https://liangshan.lianjia.com/">凉山</a>
+<a href="https://mianyang.lianjia.com/">绵阳</a>
+<a href="https://ms.fang.lianjia.com/">眉山</a>
+<a href="https://nanchong.lianjia.com/">南充</a>
+<a href="https://heze.lianjia.com/">菏泽</a>
+<a href="https://jn.lianjia.com/">济南</a>
+<a href="https://jining.lianjia.com/">济宁</a>
+<a href="https://linyi.lianjia.com/">临沂</a>
+<a href="https://qd.lianjia.com/">青岛</a>
+<a href="https://ta.lianjia.com/">泰安</a>
+<a href="https://wf.lianjia.com/">潍坊</a>
+<a href="https://weihai.lianjia.com/">威海</a>
+<a href="https://yt.lianjia.com/">烟台</a>
+<a href="https://zb.lianjia.com/">淄博</a>
+<a href="https://baoji.lianjia.com/">宝鸡</a>
+<a href="https://hanzhong.lianjia.com/">汉中</a>
+<a href="https://xa.lianjia.com/">西安</a>
+<a href="https://xianyang.lianjia.com/">咸阳</a>
+<a href="https://jz.lianjia.com/">晋中</a>
+<a href="https://ty.lianjia.com/">太原</a>
+<a href="https://tj.lianjia.com/">天津</a>
+<a href="https://dali.lianjia.com/">大理</a>
+<a href="https://km.lianjia.com/">昆明</a>
+<a href="https://xsbn.fang.lianjia.com/">西双版纳</a>
+<a href="https://hz.lianjia.com/">杭州</a>
+<a href="https://huzhou.lianjia.com/">湖州</a>
+<a href="https://jx.lianjia.com/">嘉兴</a>
+<a href="https://jh.lianjia.com/">金华</a>
+<a href="https://nb.lianjia.com/">宁波</a>
+<a href="https://quzhou.lianjia.com/">衢州</a>
+<a href="https://sx.lianjia.com/">绍兴</a>
+<a href="https://taizhou.lianjia.com/">台州</a>
+<a href="https://wz.lianjia.com/">温州</a>
+<a href="https://yw.lianjia.com/">义乌</a>
+"""
+
+""" 带.fang后缀的为没有二手房的城市、是新房
+滁州 cz.fang
+秦皇岛 qhd.fang
+保亭 bt.fang
+澄迈 cm.fang
+儋州 dz.fang
+临高 lg.fang
+乐东 ld.fang
+陵水 ls.fang
+琼海 qh.fang
+五指山 wzs.fang
+文昌 wc.fang
+万宁 wn.fang
+乐山 leshan.fang
+眉山 ms.fang
+西双版纳 xsbn.fang
+"""
+
+
+class Citys(object):
+    # 有二手房的城市
+    citys = {
+        "安庆": "aq",
+        "合肥": "hf",
+        "马鞍山": "mas",
+        "芜湖": "wuhu",
+        "北京": "bj",
+        "重庆": "cq",
+        "福州": "fz",
+        "泉州": "quanzhou",
+        "厦门": "xm",
+        "漳州": "zhangzhou",
+        "东莞": "dg",
+        "佛山": "fs",
+        "广州": "gz",
+        "惠州": "hui",
+        "江门": "jiangmen",
+        "清远": "qy",
+        "深圳": "sz",
+        "珠海": "zh",
+        "湛江": "zhanjiang",
+        "中山": "zs",
+        "贵阳": "gy",
+        "北海": "bh",
+        "防城港": "fcg",
+        "桂林": "gl",
+        "柳州": "liuzhou",
+        "南宁": "nn",
+        "兰州": "lz",
+        "鄂州": "ez",
+        "黄石": "huangshi",
+        "武汉": "wh",
+        "襄阳": "xy",
+        "宜昌": "yichang",
+        "长沙": "cs",
+        "常德": "changde",
+        "岳阳": "yy",
+        "株洲": "zhuzhou",
+        "保定": "bd",
+        "廊坊": "lf",
+        "石家庄": "sjz",
+        "唐山": "ts",
+        "张家口": "zjk",
+        "海口": "hk",
+        "三亚": "san",
+        "开封": "kf",
+        "洛阳": "luoyang",
+        "新乡": "xinxiang",
+        "许昌": "xc",
+        "郑州": "zz",
+        "周口": "zk",
+        "哈尔滨": "hrb",
+        "常州": "changzhou",
+        "海门": "haimen",
+        "淮安": "ha",
+        "江阴": "jy",
+        "昆山": "ks",
+        "南京": "nj",
+        "南通": "nt",
+        "苏州": "su",
+        "无锡": "wx",
+        "徐州": "xz",
+        "盐城": "yc",
+        "镇江": "zj",
+        "长春": "cc",
+        "吉林": "jl",
+        "赣州": "ganzhou",
+        "九江": "jiujiang",
+        "吉安": "jian",
+        "南昌": "nc",
+        "上饶": "sr",
+        "大连": "dl",
+        "丹东": "dd",
+        "沈阳": "sy",
+        "包头": "baotou",
+        "呼和浩特": "hhht",
+        "银川": "yinchuan",
+        "上海": "sh",
+        "成都": "cd",
+        "德阳": "dy",
+        "达州": "dazhou",
+        "凉山": "liangshan",
+        "绵阳": "mianyang",
+        "南充": "nanchong",
+        "菏泽": "heze",
+        "济南": "jn",
+        "济宁": "jining",
+        "临沂": "linyi",
+        "青岛": "qd",
+        "泰安": "ta",
+        "潍坊": "wf",
+        "威海": "weihai",
+        "烟台": "yt",
+        "淄博": "zb",
+        "宝鸡": "baoji",
+        "汉中": "hanzhong",
+        "西安": "xa",
+        "咸阳": "xianyang",
+        "晋中": "jz",
+        "太原": "ty",
+        "天津": "tj",
+        "大理": "dali",
+        "昆明": "km",
+        "杭州": "hz",
+        "湖州": "huzhou",
+        "嘉兴": "jx",
+        "金华": "jh",
+        "宁波": "nb",
+        "衢州": "quzhou",
+        "绍兴": "sx",
+        "台州": "taizhou",
+        "温州": "wz",
+        "义乌": "yw"
+    }
